@@ -1,0 +1,14 @@
+CPU Usage: 0.0% Memory Usage: 70.3
+CPU Usage: 13.3% Memory Usage: 70.2
+CPU Usage: 14.7% Memory Usage: 70.1
+CPU Usage: 16.4% Memory Usage: 69.9
+CPU Usage: 41.1% Memory Usage: 70.0
+CPU Usage: 13.9% Memory Usage: 69.6
+CPU Usage: 19.3% Memory Usage: 69.8
+CPU Usage: 18.9% Memory Usage: 70.2
+CPU Usage: 13.5% Memory Usage: 69.9
+CPU Usage: 9.7% Memory Usage: 69.9
+CPU Usage: 16.5% Memory Usage: 70.2
+CPU Usage: 7.5% Memory Usage: 69.7
+CPU Usage: 11.5% Memory Usage: 69.8
+CPU Usage: 19.2% Memory Usage: 70.1
