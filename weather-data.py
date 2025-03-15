@@ -14,7 +14,7 @@ def get_weather_data(city):
     # Using the credentials.py file
     # API_KEY = credentials.API_KEY
 
-    API_KEY = os.getenv("API_KEY")
+    API_KEY = os.getenv('API_KEY')
     endpoint = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
     response = requests.get(endpoint)
 
@@ -24,7 +24,7 @@ def get_weather_data(city):
         humidity = data['main']['humidity']
         condition = data['weather'][0]['description']
         # print(json.dumps(data, indent=4))
-        print(f"Weather in {city}: Temperature: {temperature}°C Condition: {condition} Humidity: {humidity}%")
+        print(f"Weather in {data['name']}: Temperature: {temperature}°C Condition: {condition} Humidity: {humidity}%")
     else:
         print(f"Error fetching weather data for {city} with code {response.status_code}")
 
@@ -32,7 +32,7 @@ def get_weather_data(city):
 # pip install python-dotenv
 
 if __name__ == '__main__':
-    cities = input("Enter the city name(s) separated by commas: ")
+    cities = input("Please, enter the city name(s) separated by commas: ")
     cities = [city.strip() for city in cities.split(',')]
     # print(cities)
     for city in cities:
