@@ -1,27 +1,27 @@
 2025-03-15 12:00:00.000 [INFO] [application] Application started
 2025-03-15 12:00:01.000 [INFO] [application] User 'john_doe' logged in
-2025-03-15 12:00:02.000 [WARN] [application] Low disk space on drive C:
+2025-03-15 12:00:02.000 [WARNING] [application] Low disk space on drive C:
 2025-03-15 12:00:03.000 [ERROR] [application] Failed to save file 'report.docx'
 2025-03-15 12:00:04.000 [INFO] [application] User 'john_doe' logged out
-2025-03-15 12:00:05.000 [WARN] [application] High memory usage detected
+2025-03-15 12:00:05.000 [WARNING] [application] High memory usage detected
 2025-03-15 12:00:06.000 [ERROR] [application] Database connection lost
 2025-03-15 12:00:07.000 [INFO] [application] Application stopped
 2025-03-15 12:00:08.000 [INFO] [application] Application started
 2025-03-15 12:00:09.000 [INFO] [application] User 'jane_smith' logged in
-2025-03-15 12:00:10.000 [WARN] [application] Low disk space on drive D:
+2025-03-15 12:00:10.000 [WARNING] [application] Low disk space on drive D:
 2025-03-15 12:00:11.000 [ERROR] [application] Failed to load configuration file 'config.yaml'
 2025-03-15 12:00:12.000 [INFO] [application] User 'jane_smith' logged out
-2025-03-15 12:00:13.000 [WARN] [application] CPU usage exceeded 90%
+2025-03-15 12:00:13.000 [WARNING] [application] CPU usage exceeded 90%
 2025-03-15 12:00:14.000 [ERROR] [application] Unable to connect to remote server 'api.example.com'
 2025-03-15 12:00:15.000 [INFO] [application] Application stopped
 2025-03-15 12:00:16.000 [INFO] [application] Application started
 2025-03-15 12:00:17.000 [INFO] [application] User 'alice_jones' logged in
-2025-03-15 12:00:18.000 [WARN] [application] Low disk space on drive E:
+2025-03-15 12:00:18.000 [WARNING] [application] Low disk space on drive E:
 2025-03-15 12:00:19.000 [ERROR] [application] Failed to open file 'data.csv'
 2025-03-15 12:00:20.000 [INFO] [application] User 'alice_jones' logged out
-2025-03-15 12:00:21.000 [WARN] [application] High memory usage detected
+2025-03-15 12:00:21.000 [WARNING] [application] High memory usage detected
 2025-03-15 12:00:22.000 [ERROR] [application] Database connection lost
 2025-03-15 12:00:23.000 [INFO] [application] Application stopped
 2025-03-15 12:00:24.000 [INFO] [application] Application started
 2025-03-15 12:00:25.000 [INFO] [application] User 'bob_brown' logged in
-2025-03-15 12:00:26.000 [WARN] [application] Low disk space on drive F:
+2025-03-15 12:00:26.000 [WARNING] [application] Low disk space on drive F:
